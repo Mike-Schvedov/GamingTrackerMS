@@ -375,7 +375,22 @@ class AllGameList {
                 "First Try(PS4) - 5:00 ",
                 ""
             ),
-
+            Game(
+                "Elden Ring",
+                "24",
+                R.drawable.elden,
+                2,
+                "2/42",
+                false,
+                false,
+                "- Absolute Helpless -",
+                "No Spoilers \n No Guides \n No Videos \n No Walkthroughs \n No 'Where to find'",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ),
             Game(
                 "Pokemon: Let's Go Eevee",
                 "24",
@@ -459,22 +474,7 @@ class AllGameList {
                 "",
                 ""
             ),
-            Game(
-                "Elden Ring",
-                "5:50",
-                R.drawable.elden,
-                2,
-                "1/42",
-                true,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ),
+
             Game(
                 "Watch Dogs 2",
                 "?",
@@ -518,7 +518,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                "",
+                "update version 0.0.1",
                 "",
                 "",
                 ""
