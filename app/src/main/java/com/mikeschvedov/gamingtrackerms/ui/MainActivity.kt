@@ -1,9 +1,10 @@
-package com.mikeschvedov.gamingtrackerms
+package com.mikeschvedov.gamingtrackerms.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.mikeschvedov.gamingtrackerms.data.AllGameList
 import com.mikeschvedov.gamingtrackerms.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

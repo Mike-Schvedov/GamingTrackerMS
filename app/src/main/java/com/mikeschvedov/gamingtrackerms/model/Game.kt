@@ -1,4 +1,4 @@
-package com.mikeschvedov.gamingtrackerms
+package com.mikeschvedov.gamingtrackerms.model
 
 data class Game(
     val gameName: String,
@@ -14,6 +14,7 @@ data class Game(
     val difficultyMod4: String,
     val playInfo1: String,
     val playInfo2: String,
-    val playInfo3: String
+    val playInfo3: String,
+    val isTop10: Boolean
 
 )

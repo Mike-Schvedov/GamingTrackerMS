@@ -1,13 +1,14 @@
-package com.mikeschvedov.gamingtrackerms
+package com.mikeschvedov.gamingtrackerms.ui
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.mikeschvedov.gamingtrackerms.databinding.GameViewHolderBinding
-import android.graphics.drawable.Drawable
-import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import androidx.core.view.isVisible
+import com.mikeschvedov.gamingtrackerms.R
+import com.mikeschvedov.gamingtrackerms.model.Game
 
 
 class GTRecyclerViewAdapter(var gameList: List<Game>) :
@@ -34,6 +35,9 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             gameTotalHoursXml.text = gameList[position].totalHours
             gameImageXml.setImageResource(gameList[position].gameImage)
 
+            if(gameList[position].isTop10){
+                cardview.setBackgroundColor(Color.parseColor("#F3D577"))
+            }
 
             cardview.setOnClickListener {
 
@@ -83,5 +87,7 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
         return gameList.size
     }
 
-
+    override fun getItemViewType(position: Int): Int {
+        return position
+    }
 }

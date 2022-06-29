@@ -1,4 +1,7 @@
-package com.mikeschvedov.gamingtrackerms
+package com.mikeschvedov.gamingtrackerms.data
+
+import com.mikeschvedov.gamingtrackerms.model.Game
+import com.mikeschvedov.gamingtrackerms.R
 
 class AllGameList {
     companion object{
@@ -18,7 +21,8 @@ class AllGameList {
                 "",
                 "Story - 20",
                 "Multiplayer - 391",
-                "Warzone - 678"
+                "Warzone - 678",
+                true
             ),
             Game(
                 "Aion",
@@ -34,7 +38,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                true
             ),
             Game(
                 "Red Dead Redemption 2",
@@ -50,7 +55,8 @@ class AllGameList {
                 "",
                 "Story - 195",
                 "Multiplayer - 92",
-                ""
+                "",
+                true
             ),
             Game(
                 "Playerunknown's Battlegrounds",
@@ -66,7 +72,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                true
             ),
             Game(
                 "Star Wars: The Old Republic",
@@ -82,7 +89,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                true
             ),
             Game(
                 "Battlefield 4",
@@ -98,7 +106,8 @@ class AllGameList {
                 "",
                 "PS3 - 60 (minimum)",
                 "PC(old) - 40",
-                ""
+                "",
+                true
             ),
             Game(
                 "Stardew Valley",
@@ -114,7 +123,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                true
             ),
             Game(
                 "Dying Light",
@@ -130,7 +140,25 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                true
+            ),
+            Game(
+                "Elden Ring",
+                "70:20",
+                R.drawable.elden,
+                50,
+                "30/42",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                true
             ),
             Game(
                 "My Time at Portia",
@@ -146,7 +174,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                true
             ),
 
             Game(
@@ -163,7 +192,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
             Game(
                 "Oxygen Not Included",
@@ -179,7 +209,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
             Game(
                 "Commandos 2",
@@ -195,7 +226,8 @@ class AllGameList {
                 "",
                 "Last full playthrough - 24",
                 "2 old playthroughs ~ +36",
-                ""
+                "",
+                false
             ),
             Game(
                 "Red Alert 2 + Yuri's Revenge",
@@ -211,7 +243,8 @@ class AllGameList {
                 "",
                 "Red Alert 2 ~ 40",
                 "Yuri's Revenge - 13",
-                "Skirmish - 1"
+                "Skirmish - 1",
+                false
             ),
             Game(
                 "PC Building Simulator",
@@ -227,7 +260,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
             Game(
                 "Horizon Zero Dawn",
@@ -243,7 +277,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
             Game(
                 "Grand Theft Auto 5",
@@ -259,11 +294,12 @@ class AllGameList {
                 "",
                 "Story - 29",
                 "Online - 17",
-                ""
+                "",
+                false
             ),
             Game(
                 "Battlefield 5",
-                "45",
+                "46",
                 R.drawable.bf5,
                 100,
                 "21/21",
@@ -275,7 +311,26 @@ class AllGameList {
                 "",
                 "Story - 10",
                 "Multiplayer - 31",
-                "Multiplayer(PC) - 4"
+                "Multiplayer(PC) - 5",
+                false
+            ),
+
+            Game(
+                "Watch Dogs 2",
+                "40",
+                R.drawable.watchdogs,
+                85,
+                "50/56",
+                true,
+                true,
+                "",
+                "",
+                "",
+                "",
+                "PS4 Platinum - 40",
+                "",
+                "",
+                false
             ),
             Game(
                 "The Sims 4",
@@ -291,7 +346,8 @@ class AllGameList {
                 "",
                 "PS4 Platinum - 37",
                 "PC For Fun - 2",
-                ""
+                "",
+                false
             ),
 
             Game(
@@ -308,7 +364,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
 
             Game(
@@ -325,7 +382,8 @@ class AllGameList {
                 "",
                 "New Save(Platinum) - 21",
                 "Old Save - 12",
-                ""
+                "",
+                false
             ),
             Game(
                 "Shadow Tactics: Blades of the Shogun",
@@ -341,8 +399,10 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
+
             Game(
                 "Pokemon: SoulSilver",
                 "30",
@@ -357,7 +417,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
             Game(
                 "Star Wars: Jedi Fallen Order",
@@ -373,24 +434,10 @@ class AllGameList {
                 "",
                 "New Playthrough(Steam) - 23:40 ",
                 "First Try(PS4) - 5:00 ",
-                ""
+                "",
+                false
             ),
-            Game(
-                "Elden Ring",
-                "24",
-                R.drawable.elden,
-                2,
-                "2/42",
-                false,
-                false,
-                "- Absolute Helpless -",
-                "No Spoilers \n No Guides \n No Videos \n No Walkthroughs \n No 'Where to find'",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ),
+
             Game(
                 "Pokemon: Let's Go Eevee",
                 "24",
@@ -405,7 +452,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
 
             Game(
@@ -422,7 +470,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
 
             Game(
@@ -439,7 +488,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
 
             Game(
@@ -456,7 +506,9 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
+
             ),
             Game(
                 "Star Wars: Battlefront 2",
@@ -472,25 +524,11 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
 
-            Game(
-                "Watch Dogs 2",
-                "?",
-                R.drawable.watchdogs,
-                85,
-                "50/56",
-                true,
-                true,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ),
+
             Game(
                 "Days Gone",
                 "?",
@@ -505,7 +543,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
             Game(
                 "Spider-Man",
@@ -521,7 +560,8 @@ class AllGameList {
                 "update version 0.0.1",
                 "",
                 "",
-                ""
+                "",
+                false
             ),
 
 

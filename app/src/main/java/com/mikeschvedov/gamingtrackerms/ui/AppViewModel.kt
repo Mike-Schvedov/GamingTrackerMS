@@ -1,4 +1,4 @@
-package com.mikeschvedov.gamingtrackerms
+package com.mikeschvedov.gamingtrackerms.ui
 
 import androidx.lifecycle.ViewModel
 
