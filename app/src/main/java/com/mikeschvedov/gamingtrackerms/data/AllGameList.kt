@@ -127,6 +127,23 @@ class AllGameList {
                 true
             ),
             Game(
+                "Elden Ring",
+                "86",
+                R.drawable.elden,
+                100,
+                "42/42",
+                true,
+                true,
+                "No Glitching",
+                "No Multiplayer",
+                "",
+                "",
+                "",
+                "",
+                "",
+                true
+            ),
+            Game(
                 "Dying Light",
                 "85",
                 R.drawable.dying_light,
@@ -143,23 +160,7 @@ class AllGameList {
                 "",
                 true
             ),
-            Game(
-                "Elden Ring",
-                "70:20",
-                R.drawable.elden,
-                50,
-                "30/42",
-                false,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                true
-            ),
+
             Game(
                 "My Time at Portia",
                 "65",
