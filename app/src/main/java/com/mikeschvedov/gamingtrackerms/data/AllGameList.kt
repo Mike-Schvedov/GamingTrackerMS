@@ -441,7 +441,7 @@ class AllGameList {
             Game(
                 "Cyberpunk 2077",
                 "27:30",
-                R.drawable.eevee,
+                R.drawable.cyber,
                 11,
                 "5/44",
                 false,
@@ -526,6 +526,23 @@ class AllGameList {
                 "",
                 false
 
+            ),
+            Game(
+                "Dying Light 2",
+                "3:10",
+                R.drawable.dyinglight2,
+                8,
+                "5/57",
+                false,
+                false,
+                "No enemy healthbars",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
             ),
             Game(
                 "Star Wars: Battlefront 2",
