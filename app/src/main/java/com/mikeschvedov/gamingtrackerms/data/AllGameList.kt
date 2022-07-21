@@ -438,7 +438,23 @@ class AllGameList {
                 "",
                 false
             ),
-
+            Game(
+                "Cyberpunk 2077",
+                "27:30",
+                R.drawable.eevee,
+                11,
+                "5/44",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
             Game(
                 "Pokemon: Let's Go Eevee",
                 "24",
