@@ -8,9 +8,26 @@ class AllGameList {
 
         val allGameList = mutableListOf(
             Game(
-                "Modern Warfare - Warzone",
-                "1089",
+                "Call of Duty: Warzone",
+                "678",
                 R.drawable.warzone,
+                0,
+                "N/A",
+                true,
+                true,
+                "",
+                "",
+                "",
+                "",
+                "Warzone - 678",
+                "",
+                "",
+                true
+            ),
+            Game(
+                "Call of Duty: Modern Warfare",
+                "411",
+                R.drawable.modernwarfare,
                 100,
                 "28/28",
                 true,
@@ -19,9 +36,9 @@ class AllGameList {
                 "",
                 "",
                 "",
-                "Story - 20",
+                "Campaign - 20",
                 "Multiplayer - 391",
-                "Warzone - 678",
+                "",
                 true
             ),
             Game(
@@ -176,7 +193,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                true
+                false
             ),
 
             Game(
@@ -368,7 +385,23 @@ class AllGameList {
                 "",
                 false
             ),
-
+            Game(
+                "Dying Light 2",
+                "37:25",
+                R.drawable.dyinglight2,
+                54,
+                "31/57",
+                false,
+                false,
+                "Hard 3/3",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
             Game(
                 "Subnautica",
                 "34",
@@ -527,16 +560,17 @@ class AllGameList {
                 false
 
             ),
+
             Game(
-                "Dying Light 2",
-                "3:10",
-                R.drawable.dyinglight2,
-                8,
-                "5/57",
+                "Call of Duty: Cold War",
+                "2:40",
+                R.drawable.coldwar,
+                15,
+                "0/0",
                 false,
                 false,
-                "No enemy healthbars",
-                "",
+                "Campaign - 0 ",
+                "Multiplayer - 2:40 ",
                 "",
                 "",
                 "",
