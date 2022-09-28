@@ -9,7 +9,7 @@ class AllGameList {
         val allGameList = mutableListOf(
             Game(
                 "Call of Duty: Warzone",
-                "678",
+                "679",
                 R.drawable.warzone,
                 0,
                 "N/A",
@@ -19,8 +19,8 @@ class AllGameList {
                 "",
                 "",
                 "",
-                "Warzone - 678",
-                "",
+                "With Omri (2020-2021) - 678",
+                "New (2022) - 1",
                 "",
                 true
             ),
@@ -387,7 +387,7 @@ class AllGameList {
             ),
             Game(
                 "Dying Light 2",
-                "37:25",
+                "38",
                 R.drawable.dyinglight2,
                 54,
                 "31/57",
@@ -505,10 +505,43 @@ class AllGameList {
                 "",
                 false
             ),
-
+            Game(
+                "Food Truck Simulator",
+                "23:20",
+                R.drawable.foodtruck,
+                100,
+                "50/50",
+                true,
+                true,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
+            Game(
+                "Call of Duty: Cold War",
+                "17",
+                R.drawable.coldwar,
+                37,
+                "18/44",
+                true,
+                false,
+                "Campaign - 6:00 ",
+                "Multiplayer - 11:00 ",
+                "",
+                "",
+                "Campaign - Realism 5/5",
+                "",
+                "",
+                false
+            ),
             Game(
                 "Grounded",
-                "15",
+                "15:20",
                 R.drawable.grounded,
                 21,
                 "6/28",
@@ -560,24 +593,24 @@ class AllGameList {
                 false
 
             ),
-
             Game(
-                "Call of Duty: Cold War",
-                "2:40",
-                R.drawable.coldwar,
-                15,
+                "Call of Duty: Modern Warfare 2",
+                "3",
+                R.drawable.mw2,
+                0,
                 "0/0",
                 false,
                 false,
-                "Campaign - 0 ",
-                "Multiplayer - 2:40 ",
-                "",
+                "Beta - 3:00",
+                "Multiplayer - ",
+                "Camping - ",
                 "",
                 "",
                 "",
                 "",
                 false
             ),
+
             Game(
                 "Star Wars: Battlefront 2",
                 "?",

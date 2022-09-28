@@ -32,6 +32,8 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             // -----------------------  minimized view -----------------------------------------//
 
             gameNameXml.text = gameList[position].gameName
+
+
             gameTotalHoursXml.text = gameList[position].totalHours
             gameImageXml.setImageResource(gameList[position].gameImage)
 
