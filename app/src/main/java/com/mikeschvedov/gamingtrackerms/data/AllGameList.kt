@@ -9,7 +9,7 @@ class AllGameList {
         val allGameList = mutableListOf(
             Game(
                 "Call of Duty: Warzone",
-                "679",
+                "680",
                 R.drawable.warzone,
                 0,
                 "N/A",
@@ -332,6 +332,59 @@ class AllGameList {
                 "Multiplayer(PC) - 5",
                 false
             ),
+            Game(
+                "Star Wars: Battlefront 2",
+                "40",
+                R.drawable.battlefront2,
+                89,
+                "0/41",
+                true,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
+
+
+            Game(
+                "Days Gone",
+                "40",
+                R.drawable.days_gone,
+                70,
+                "?/?",
+                true,
+                true,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
+            Game(
+                "Spider-Man",
+                "40",
+                R.drawable.spiderman,
+                62,
+                "51/51",
+                true,
+                true,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
 
             Game(
                 "Watch Dogs 2",
@@ -523,6 +576,23 @@ class AllGameList {
                 false
             ),
             Game(
+                "Grounded",
+                "21",
+                R.drawable.grounded,
+                16,
+                "6/37",
+                false,
+                false,
+                "Whoa! 3/3",
+                "",
+                "",
+                "",
+                "First gameplay (Nov 2021) - 15:00",
+                "New gameplay (Oct - ___ 2022) - 1:30",
+                "",
+                false
+            ),
+            Game(
                 "Call of Duty: Cold War",
                 "17",
                 R.drawable.coldwar,
@@ -535,23 +605,6 @@ class AllGameList {
                 "",
                 "",
                 "Campaign - Realism 5/5",
-                "",
-                "",
-                false
-            ),
-            Game(
-                "Grounded",
-                "15:20",
-                R.drawable.grounded,
-                21,
-                "6/28",
-                false,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "",
                 "",
                 "",
                 false
@@ -611,59 +664,6 @@ class AllGameList {
                 false
             ),
 
-            Game(
-                "Star Wars: Battlefront 2",
-                "?",
-                R.drawable.battlefront2,
-                89,
-                "0/41",
-                true,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                false
-            ),
-
-
-            Game(
-                "Days Gone",
-                "?",
-                R.drawable.days_gone,
-                70,
-                "?/?",
-                true,
-                true,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                false
-            ),
-            Game(
-                "Spider-Man",
-                "?",
-                R.drawable.spiderman,
-                62,
-                "51/51",
-                true,
-                true,
-                "",
-                "",
-                "",
-                "update version 0.0.1",
-                "",
-                "",
-                "",
-                false
-            ),
 
 
 
