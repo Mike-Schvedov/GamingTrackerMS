@@ -37,7 +37,7 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             gameTotalHoursXml.text = gameList[position].totalHours
             gameImageXml.setImageResource(gameList[position].gameImage)
 
-            if(gameList[position].isTop10){
+            if(gameList[position].isTop10) {
                 cardview.setBackgroundColor(Color.parseColor("#F3D577"))
             }
 
@@ -57,7 +57,6 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             }
 
             achievementsXml.text = gameList[position].gameAchievements
-
 
             if(gameList[position].hasStory){
                 storyXml.setImageResource(R.drawable.yes)
