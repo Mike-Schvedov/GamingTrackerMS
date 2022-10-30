@@ -49,7 +49,6 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             }
 
             // -----------------------  expanded view -----------------------------------------//
-
             if(gameList[position].gamePercent != null){
                 percentXml.text = "${gameList[position].gamePercent.toString()}%"
             }else{
@@ -80,8 +79,6 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             play3Xml.text = gameList[position].playInfo3
 
         }
-
-
     }
 
     override fun getItemCount(): Int {

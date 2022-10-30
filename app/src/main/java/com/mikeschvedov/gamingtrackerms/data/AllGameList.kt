@@ -9,7 +9,7 @@ class AllGameList {
         val allGameList = mutableListOf(
             Game(
                 "Call of Duty: Warzone",
-                "680",
+                "683",
                 R.drawable.warzone,
                 0,
                 "N/A",
@@ -20,7 +20,7 @@ class AllGameList {
                 "",
                 "",
                 "With Omri (2020-2021) - 678",
-                "New (2022) - 2",
+                "New (2022) - 5",
                 "",
                 true
             ),
@@ -177,7 +177,23 @@ class AllGameList {
                 "",
                 true
             ),
-
+            Game(
+                "Grounded",
+                "68",
+                R.drawable.grounded,
+                54,
+                "20/37",
+                false,
+                false,
+                "Whoa! 3/3",
+                "",
+                "",
+                "",
+                "First gameplay (Nov 2021) - 15:00",
+                "New gameplay (Oct - ___ 2022) - 53:00",
+                "",
+                false
+            ),
             Game(
                 "My Time at Portia",
                 "65",
@@ -264,6 +280,7 @@ class AllGameList {
                 "Skirmish - 1",
                 false
             ),
+
             Game(
                 "PC Building Simulator",
                 "48",
@@ -332,23 +349,7 @@ class AllGameList {
                 "Multiplayer(PC) - 5",
                 false
             ),
-            Game(
-                "Grounded",
-                "42:30",
-                R.drawable.grounded,
-                29,
-                "11/37",
-                false,
-                false,
-                "Whoa! 3/3",
-                "",
-                "",
-                "",
-                "First gameplay (Nov 2021) - 15:00",
-                "New gameplay (Oct - ___ 2022) - 27:30",
-                "",
-                false
-            ),
+
             Game(
                 "Star Wars: Battlefront 2",
                 "40",
@@ -601,12 +602,12 @@ class AllGameList {
                 "18/44",
                 true,
                 false,
-                "Campaign - 6:00 ",
-                "Multiplayer - 12:00 ",
+                "Campaign - Realism 5/5 ",
                 "",
                 "",
-                "Campaign - Realism 5/5",
                 "",
+                "Campaign - 6:00",
+                "Multiplayer - 12:00",
                 "",
                 false
             ),
