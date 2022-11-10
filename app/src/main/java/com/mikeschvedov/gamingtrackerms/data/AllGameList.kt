@@ -179,10 +179,10 @@ class AllGameList {
             ),
             Game(
                 "Grounded",
-                "68",
+                "71:40",
                 R.drawable.grounded,
-                54,
-                "20/37",
+                59,
+                "22/37",
                 false,
                 false,
                 "Whoa! 3/3",
@@ -560,6 +560,23 @@ class AllGameList {
                 false
             ),
             Game(
+                "Call of Duty: Modern Warfare 2",
+                "26:10",
+                R.drawable.mw2,
+                0,
+                "0/0",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "Beta - 3:00",
+                "(Nov 22 - ___) Multiplayer - 23:10",
+                "Camping - ",
+                false
+            ),
+            Game(
                 "Pokemon: Let's Go Eevee",
                 "24",
                 R.drawable.eevee,
@@ -648,23 +665,7 @@ class AllGameList {
                 false
 
             ),
-            Game(
-                "Call of Duty: Modern Warfare 2",
-                "3",
-                R.drawable.mw2,
-                0,
-                "0/0",
-                false,
-                false,
-                "Beta - 3:00",
-                "Multiplayer - ",
-                "Camping - ",
-                "",
-                "",
-                "",
-                "",
-                false
-            ),
+
 
 
 
