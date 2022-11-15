@@ -474,6 +474,23 @@ class AllGameList {
                 false
             ),
             Game(
+                "Call of Duty: Modern Warfare 2",
+                "37:10",
+                R.drawable.mw2,
+                12,
+                "3/24",
+                false,
+                false,
+                "? 0/5",
+                "",
+                "",
+                "",
+                "Campaign - 2:00",
+                "Co-op - 0:40",
+                "Multiplayer - 34:30 \n (Nov 22 - ___)",
+                false
+            ),
+            Game(
                 "Subnautica",
                 "34",
                 R.drawable.sub,
@@ -559,23 +576,7 @@ class AllGameList {
                 "",
                 false
             ),
-            Game(
-                "Call of Duty: Modern Warfare 2",
-                "26:10",
-                R.drawable.mw2,
-                0,
-                "0/0",
-                false,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "Beta - 3:00",
-                "(Nov 22 - ___) Multiplayer - 23:10",
-                "Camping - ",
-                false
-            ),
+
             Game(
                 "Pokemon: Let's Go Eevee",
                 "24",
@@ -666,9 +667,23 @@ class AllGameList {
 
             ),
 
-
-
-
+            Game(
+                "Call of Duty: Warzone 2.0",
+                "0",
+                R.drawable.warzone2,
+                0,
+                "0/24",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "Warzone - 0",
+                "DMZ - 0",
+                "(Nov 22 - ___)",
+                false
+            ),
 
             )
 
