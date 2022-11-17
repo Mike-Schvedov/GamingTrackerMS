@@ -7,26 +7,10 @@ class AllGameList {
     companion object{
 
         val allGameList = mutableListOf(
+
             Game(
-                "Call of Duty: Warzone",
-                "683",
-                R.drawable.warzone,
-                0,
-                "N/A",
-                true,
-                true,
-                "",
-                "",
-                "",
-                "",
-                "With Omri (2020-2021) - 678",
-                "New (2022) - 5",
-                "",
-                true
-            ),
-            Game(
-                "Call of Duty: Modern Warfare",
-                "411",
+                "Call of Duty:\nModern Warfare + Warzone",
+                "1094",
                 R.drawable.modernwarfare,
                 100,
                 "28/28",
@@ -38,7 +22,7 @@ class AllGameList {
                 "",
                 "Campaign - 20",
                 "Multiplayer - 391",
-                "",
+                "Warzone - 683",
                 true
             ),
             Game(
@@ -192,7 +176,7 @@ class AllGameList {
                 "First gameplay (Nov 2021) - 15:00",
                 "New gameplay (Oct - ___ 2022) - 53:00",
                 "",
-                false
+                true
             ),
             Game(
                 "My Time at Portia",
@@ -349,7 +333,23 @@ class AllGameList {
                 "Multiplayer(PC) - 5",
                 false
             ),
-
+            Game(
+                "Call of Duty:\nModern Warfare 2 + Warzone 2",
+                "41:10",
+                R.drawable.mw2,
+                12,
+                "3/24",
+                false,
+                false,
+                "? 0/5",
+                "",
+                "",
+                "",
+                "Campaign - 2:00\nCo-op - 0:40",
+                "Multiplayer - 38:10",
+                "Warzone - 00:20\nDMZ - 00:00 ",
+                false
+            ),
             Game(
                 "Star Wars: Battlefront 2",
                 "40",
@@ -473,23 +473,7 @@ class AllGameList {
                 "",
                 false
             ),
-            Game(
-                "Call of Duty: Modern Warfare 2",
-                "37:10",
-                R.drawable.mw2,
-                12,
-                "3/24",
-                false,
-                false,
-                "? 0/5",
-                "",
-                "",
-                "",
-                "Campaign - 2:00",
-                "Co-op - 0:40",
-                "Multiplayer - 34:30 \n (Nov 22 - ___)",
-                false
-            ),
+
             Game(
                 "Subnautica",
                 "34",
@@ -666,25 +650,6 @@ class AllGameList {
                 false
 
             ),
-
-            Game(
-                "Call of Duty: Warzone 2.0",
-                "0",
-                R.drawable.warzone2,
-                0,
-                "0/24",
-                false,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "Warzone - 0",
-                "DMZ - 0",
-                "(Nov 22 - ___)",
-                false
-            ),
-
             )
 
     }
