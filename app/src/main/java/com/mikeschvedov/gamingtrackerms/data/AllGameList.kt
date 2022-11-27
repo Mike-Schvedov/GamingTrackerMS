@@ -162,6 +162,23 @@ class AllGameList {
                 true
             ),
             Game(
+                "Call of Duty:\nModern Warfare 2 + Warzone 2",
+                "75:40",
+                R.drawable.mw2,
+                79,
+                "19/24",
+                true,
+                false,
+                "Recruit 1/5",
+                "",
+                "",
+                "",
+                "Campaign - 8:20\nCo-op - 1:00",
+                "Multiplayer - 53:00",
+                "Warzone - 06:20\nDMZ - 07:00 ",
+                true
+            ),
+            Game(
                 "Grounded",
                 "71:40",
                 R.drawable.grounded,
@@ -176,7 +193,7 @@ class AllGameList {
                 "First gameplay (Nov 2021) - 15:00",
                 "New gameplay (Oct - ___ 2022) - 53:00",
                 "",
-                true
+                false
             ),
             Game(
                 "My Time at Portia",
@@ -333,23 +350,7 @@ class AllGameList {
                 "Multiplayer(PC) - 5",
                 false
             ),
-            Game(
-                "Call of Duty:\nModern Warfare 2 + Warzone 2",
-                "41:10",
-                R.drawable.mw2,
-                12,
-                "3/24",
-                false,
-                false,
-                "? 0/5",
-                "",
-                "",
-                "",
-                "Campaign - 2:00\nCo-op - 0:40",
-                "Multiplayer - 38:10",
-                "Warzone - 00:20\nDMZ - 00:00 ",
-                false
-            ),
+
             Game(
                 "Star Wars: Battlefront 2",
                 "40",
