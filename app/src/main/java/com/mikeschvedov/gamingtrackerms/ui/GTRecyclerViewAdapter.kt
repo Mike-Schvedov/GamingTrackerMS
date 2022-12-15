@@ -42,10 +42,8 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             }
 
             cardview.setOnClickListener {
-
                 // if layout is visible then hide it, if is hidden then make visible
                 hiddenLayoutXml.isVisible = hiddenLayoutXml.visibility != View.VISIBLE
-
             }
 
             // -----------------------  expanded view -----------------------------------------//

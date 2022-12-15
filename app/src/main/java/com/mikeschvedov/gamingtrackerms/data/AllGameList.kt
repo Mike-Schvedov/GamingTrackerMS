@@ -94,6 +94,23 @@ class AllGameList {
                 true
             ),
             Game(
+                "Call of Duty:\nModern Warfare 2 + Warzone 2",
+                "113:30",
+                R.drawable.mw2,
+                91,
+                "22/24",
+                true,
+                false,
+                "Recruit 1/5",
+                "",
+                "",
+                "",
+                "Campaign - 10:00\nCo-op - 6:10",
+                "Multiplayer - 74:30",
+                "Warzone - 14:50\nDMZ - 08:00 ",
+                true
+            ),
+            Game(
                 "Battlefield 4",
                 "+100",
                 R.drawable.bf4,
@@ -161,23 +178,7 @@ class AllGameList {
                 "",
                 true
             ),
-            Game(
-                "Call of Duty:\nModern Warfare 2 + Warzone 2",
-                "75:40",
-                R.drawable.mw2,
-                79,
-                "19/24",
-                true,
-                false,
-                "Recruit 1/5",
-                "",
-                "",
-                "",
-                "Campaign - 8:20\nCo-op - 1:00",
-                "Multiplayer - 53:00",
-                "Warzone - 06:20\nDMZ - 07:00 ",
-                true
-            ),
+
             Game(
                 "Grounded",
                 "71:40",
