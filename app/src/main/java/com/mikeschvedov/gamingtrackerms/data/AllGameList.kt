@@ -95,7 +95,7 @@ class AllGameList {
             ),
             Game(
                 "Call of Duty:\nModern Warfare 2 + Warzone 2",
-                "113:30",
+                "139:00",
                 R.drawable.mw2,
                 91,
                 "22/24",
@@ -105,9 +105,9 @@ class AllGameList {
                 "",
                 "",
                 "",
-                "Campaign - 10:00\nCo-op - 6:10",
-                "Multiplayer - 74:30",
-                "Warzone - 14:50\nDMZ - 08:00 ",
+                "Campaign - 11:00\nCo-op - 6:10",
+                "Multiplayer - 91:40",
+                "Warzone - 18:40\nDMZ - 11:30 ",
                 true
             ),
             Game(
