@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.mikeschvedov.gamingtrackerms.databinding.GameViewHolderBinding
-import androidx.core.view.isVisible
 import com.mikeschvedov.gamingtrackerms.R
 import com.mikeschvedov.gamingtrackerms.model.Game
 
@@ -37,33 +36,37 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             gameTotalHoursXml.text = gameList[position].totalHours
             gameImageXml.setImageResource(gameList[position].gameImage)
 
-            if(gameList[position].isTop10) {
+            if (gameList[position].isTop10) {
                 cardview.setBackgroundColor(Color.parseColor("#F3D577"))
             }
 
             cardview.setOnClickListener {
                 // if layout is visible then hide it, if is hidden then make visible
-                hiddenLayoutXml.isVisible = hiddenLayoutXml.visibility != View.VISIBLE
+                if (hiddenLayoutXml.visibility != View.VISIBLE) {
+                    hiddenLayoutXml.visibility = View.VISIBLE
+                } else {
+                    hiddenLayoutXml.visibility = View.GONE
+                }
             }
 
             // -----------------------  expanded view -----------------------------------------//
-            if(gameList[position].gamePercent != null){
+            if (gameList[position].gamePercent != null) {
                 percentXml.text = "${gameList[position].gamePercent.toString()}%"
-            }else{
+            } else {
                 percentXml.text = ""
             }
 
             achievementsXml.text = gameList[position].gameAchievements
 
-            if(gameList[position].hasStory){
+            if (gameList[position].hasStory) {
                 storyXml.setImageResource(R.drawable.yes)
-            }else{
+            } else {
                 storyXml.setImageResource(R.drawable.no)
             }
 
-            if (gameList[position].hasPlatinum){
+            if (gameList[position].hasPlatinum) {
                 platinumXml.setImageResource(R.drawable.platinum)
-            }else{
+            } else {
                 platinumXml.setImageResource(R.drawable.blank_platinum)
             }
 
