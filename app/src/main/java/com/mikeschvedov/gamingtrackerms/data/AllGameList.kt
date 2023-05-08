@@ -26,6 +26,23 @@ class AllGameList {
                 true
             ),
             Game(
+                "Call of Duty:\nModern Warfare 2 + Warzone 2",
+                "348:30",
+                R.drawable.mw2,
+                91,
+                "22/24",
+                true,
+                false,
+                "Recruit 1/5",
+                "",
+                "",
+                "",
+                "Campaign - 11\nCo-op - 6",
+                "Multiplayer - 171\nRanked - 64",
+                "Warzone - 85\nDMZ - 11:30 ",
+                true
+            ),
+            Game(
                 "Aion",
                 "332",
                 R.drawable.aion,
@@ -93,23 +110,7 @@ class AllGameList {
                 "",
                 true
             ),
-            Game(
-                "Call of Duty:\nModern Warfare 2 + Warzone 2",
-                "139:00",
-                R.drawable.mw2,
-                91,
-                "22/24",
-                true,
-                false,
-                "Recruit 1/5",
-                "",
-                "",
-                "",
-                "Campaign - 11:00\nCo-op - 6:10",
-                "Multiplayer - 91:40",
-                "Warzone - 18:40\nDMZ - 11:30 ",
-                true
-            ),
+
             Game(
                 "Battlefield 4",
                 "+100",
@@ -615,7 +616,24 @@ class AllGameList {
                 "",
                 false
             ),
+            Game(
+                "Car Mechanic Simulator 2021",
+                "15",
+                R.drawable.flipper,
+               28,
+                "13/46",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
 
+            ),
             Game(
                 "Pokemon TCG",
                 "12",
@@ -644,6 +662,25 @@ class AllGameList {
                 false,
                 "All DLC's Trophies",
                 "Assembly Mode - Hard",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+
+            ),
+
+            Game(
+                "Microsoft Flight Simulator",
+                "5",
+                R.drawable.flipper,
+                11,
+                "5/43",
+                false,
+                false,
+                "",
+                "",
                 "",
                 "",
                 "",
