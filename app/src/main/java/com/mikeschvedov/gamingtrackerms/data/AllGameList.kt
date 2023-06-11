@@ -27,7 +27,7 @@ class AllGameList {
             ),
             Game(
                 "Call of Duty:\nModern Warfare 2 + Warzone 2",
-                "348:30",
+                "394",
                 R.drawable.mw2,
                 91,
                 "22/24",
@@ -39,7 +39,7 @@ class AllGameList {
                 "",
                 "Campaign - 11\nCo-op - 6",
                 "Multiplayer - 171\nRanked - 64",
-                "Warzone - 85\nDMZ - 11:30 ",
+                "Warzone - 85\nWarzone Ranked - 45\nDMZ - 12:00 ",
                 true
             ),
             Game(
@@ -179,7 +179,23 @@ class AllGameList {
                 "",
                 true
             ),
-
+            Game(
+                "Oxygen Not Included",
+                "78",
+                R.drawable.oxygen,
+                60,
+                "21/35",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+            ),
             Game(
                 "Grounded",
                 "71:40",
@@ -232,23 +248,7 @@ class AllGameList {
                 "",
                 false
             ),
-            Game(
-                "Oxygen Not Included",
-                "62",
-                R.drawable.oxygen,
-                60,
-                "21/35",
-                false,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                false
-            ),
+
             Game(
                 "Commandos 2",
                 "+60",
@@ -679,7 +679,26 @@ class AllGameList {
                 "5/43",
                 false,
                 false,
+                "Time with Hotas - 0:30",
                 "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+
+            ),
+
+            Game(
+                "Star Wars: Squadrons",
+                "1",
+                R.drawable.flipper,
+                0,
+                "0/0",
+                false,
+                false,
+                "Played Only With Hotas",
                 "",
                 "",
                 "",
