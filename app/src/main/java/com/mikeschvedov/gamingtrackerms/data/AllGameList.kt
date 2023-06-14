@@ -143,7 +143,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                true
+                false
             ),
             Game(
                 "Elden Ring",
@@ -162,6 +162,7 @@ class AllGameList {
                 "",
                 true
             ),
+
             Game(
                 "Dying Light",
                 "85",
@@ -178,6 +179,23 @@ class AllGameList {
                 "",
                 "",
                 true
+            ),
+            Game(
+                "        --- TOP 10 ---",
+                "0",
+                R.drawable.blank_platinum,
+                0,
+                "0/0",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
             ),
             Game(
                 "Oxygen Not Included",
@@ -264,7 +282,7 @@ class AllGameList {
                 "Last full playthrough - 24",
                 "2 old playthroughs ~ +36",
                 "",
-                false
+                true
             ),
             Game(
                 "Red Alert 2 + Yuri's Revenge",
@@ -281,7 +299,7 @@ class AllGameList {
                 "Red Alert 2 ~ 40",
                 "Yuri's Revenge - 13",
                 "Skirmish - 1",
-                false
+                true
             ),
 
             Game(
@@ -316,7 +334,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "Grand Theft Auto 5",
@@ -333,7 +351,7 @@ class AllGameList {
                 "Story - 29",
                 "Online - 17",
                 "",
-                false
+                true
             ),
             Game(
                 "Battlefield 5",
@@ -350,7 +368,7 @@ class AllGameList {
                 "Story - 10",
                 "Multiplayer - 31",
                 "Multiplayer(PC) - 5",
-                false
+                true
             ),
 
             Game(
@@ -368,7 +386,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
 
 
@@ -387,7 +405,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "Spider-Man",
@@ -404,7 +422,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
 
             Game(
@@ -422,7 +440,7 @@ class AllGameList {
                 "PS4 Platinum - 40",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "The Sims 4",
@@ -439,7 +457,7 @@ class AllGameList {
                 "PS4 Platinum - 37",
                 "PC For Fun - 2",
                 "",
-                false
+                true
             ),
 
             Game(
@@ -457,7 +475,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "Dying Light 2",
@@ -492,7 +510,7 @@ class AllGameList {
                 "New Save(Platinum) - 21",
                 "Old Save - 12",
                 "",
-                false
+                true
             ),
             Game(
                 "Shadow Tactics: Blades of the Shogun",
@@ -509,7 +527,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
 
             Game(
@@ -527,7 +545,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "Star Wars: Jedi Fallen Order",
@@ -544,7 +562,7 @@ class AllGameList {
                 "New Playthrough(Steam) - 23:40 ",
                 "First Try(PS4) - 5:00 ",
                 "",
-                false
+                true
             ),
             Game(
                 "Cyberpunk 2077",
@@ -579,7 +597,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "Food Truck Simulator",
@@ -596,7 +614,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
 
             Game(
@@ -614,7 +632,7 @@ class AllGameList {
                 "Campaign - 6:00",
                 "Multiplayer - 12:00",
                 "",
-                false
+                true
             ),
             Game(
                 "Car Mechanic Simulator 2021",
@@ -649,7 +667,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
 
             Game(
@@ -686,8 +704,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
-
+                true
             ),
 
             Game(

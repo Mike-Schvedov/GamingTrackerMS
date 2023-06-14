@@ -15,6 +15,6 @@ data class Game(
     val playInfo1: String,
     val playInfo2: String,
     val playInfo3: String,
-    val isTop10: Boolean
+    val isStoryCompleted: Boolean
 
 )

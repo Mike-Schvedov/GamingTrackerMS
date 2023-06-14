@@ -1,6 +1,7 @@
 package com.mikeschvedov.gamingtrackerms.ui
 
 import android.graphics.Color
+import android.opengl.Visibility
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -33,11 +34,23 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
             gameNameXml.text = gameList[position].gameName
 
 
-            gameTotalHoursXml.text = gameList[position].totalHours
-            gameImageXml.setImageResource(gameList[position].gameImage)
+            if(gameList[position].totalHours == "0"){
+                gameTotalHoursXml.text = ""
+            }else{
+                gameTotalHoursXml.text = gameList[position].totalHours
+            }
 
-            if (gameList[position].isTop10) {
-                cardview.setBackgroundColor(Color.parseColor("#F3D577"))
+            if(gameList[position].totalHours == "0"){
+                gameImageXml.visibility = View.INVISIBLE // for the top 10 card
+            }else{
+                gameImageXml.setImageResource(gameList[position].gameImage)
+            }
+
+
+            if (gameList[position].isStoryCompleted) {
+                cardview.setBackgroundColor(Color.parseColor("#a8f0ad"))
+            }else if(gameList[position].totalHours == "0"){
+                cardview.setBackgroundColor(Color.parseColor("#dbbb3b")) // for the top 10 card
             }
 
             cardview.setOnClickListener {
