@@ -652,6 +652,24 @@ class AllGameList {
                 false
 
             ),
+
+            Game(
+                "Assassin's Creed 2",
+                "14",
+                R.drawable.ac2,
+                0,
+                "0/0",
+                true,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "June 2023",
+                "",
+                "",
+                true
+            ),
             Game(
                 "Pokemon TCG",
                 "12",
@@ -669,7 +687,23 @@ class AllGameList {
                 "",
                 true
             ),
-
+            Game(
+                "Assassin's Creed",
+                "11:30",
+                R.drawable.assassins1,
+                0,
+                "0/0",
+                true,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "June 2023",
+                "",
+                "",
+                true
+            ),
             Game(
                 "House Flipper",
                 "10",
@@ -692,7 +726,7 @@ class AllGameList {
             Game(
                 "Microsoft Flight Simulator",
                 "5",
-                R.drawable.flipper,
+                R.drawable.flight,
                 11,
                 "5/43",
                 false,
@@ -710,7 +744,7 @@ class AllGameList {
             Game(
                 "Star Wars: Squadrons",
                 "1",
-                R.drawable.flipper,
+                R.drawable.squadrons,
                 0,
                 "0/0",
                 false,
