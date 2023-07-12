@@ -722,7 +722,23 @@ class AllGameList {
                 false
 
             ),
-
+            Game(
+                "Assassin's Creed : Brotherhood",
+                "9",
+                R.drawable.brotherhood,
+                0,
+                "0/0",
+                true,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "July 2023",
+                "",
+                "",
+                true
+            ),
             Game(
                 "Microsoft Flight Simulator",
                 "5",
