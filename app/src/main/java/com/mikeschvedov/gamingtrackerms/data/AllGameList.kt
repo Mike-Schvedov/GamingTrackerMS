@@ -756,7 +756,43 @@ class AllGameList {
                 "",
                 true
             ),
+            Game(
+                "Assassins Creed: Revelations",
+                "5",
+                R.drawable.ac_revelations,
+                0,
+                "0/0",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
 
+            ),
+
+            Game(
+                "Dave the Diver",
+                "4",
+                R.drawable.dave,
+                0,
+                "0/0",
+                false,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                false
+
+            ),
             Game(
                 "Star Wars: Squadrons",
                 "1",
@@ -775,6 +811,8 @@ class AllGameList {
                 false
 
             ),
+
+
             )
 
     }
