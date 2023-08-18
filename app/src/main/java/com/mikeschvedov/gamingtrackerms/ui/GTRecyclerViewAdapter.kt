@@ -22,6 +22,18 @@ class GTRecyclerViewAdapter(var gameList: List<Game>) :
         return GameViewHolder(view)
     }
 
+    fun updateList(newList: List<Game>) {
+        val oldSize = gameList.size
+        gameList = newList
+        val newSize = gameList.size
+
+        if (oldSize == newSize) {
+            notifyItemRangeChanged(0, newSize)
+        } else {
+            notifyDataSetChanged()
+        }
+    }
+
     // Called for every item in our list
     override fun onBindViewHolder(holder: GameViewHolder, position: Int) {
 

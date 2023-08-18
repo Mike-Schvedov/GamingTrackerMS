@@ -134,8 +134,8 @@ class AllGameList {
                 R.drawable.stardew_valley,
                 70,
                 "28/40",
+                true,
                 false,
-                false,
                 "",
                 "",
                 "",
@@ -143,7 +143,7 @@ class AllGameList {
                 "",
                 "",
                 "",
-                false
+                true
             ),
             Game(
                 "Elden Ring",
