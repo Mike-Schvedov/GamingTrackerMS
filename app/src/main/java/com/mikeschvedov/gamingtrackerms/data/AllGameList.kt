@@ -129,6 +129,23 @@ class AllGameList {
                 true
             ),
             Game(
+                "Grounded",
+                "99:00",
+                R.drawable.grounded,
+                73,
+                "30/41",
+                true,
+                false,
+                "Medium! 2/3",
+                "Only 1st Person",
+                "",
+                "",
+                "First gameplay (Nov 2021) - 15:00",
+                "New gameplay (2022-2023) - 84:00",
+                "",
+                true
+            ),
+            Game(
                 "Stardew Valley",
                 "91:30",
                 R.drawable.stardew_valley,
@@ -162,24 +179,6 @@ class AllGameList {
                 "",
                 true
             ),
-
-            Game(
-                "Dying Light",
-                "85",
-                R.drawable.dying_light,
-                84,
-                "62/69",
-                true,
-                true,
-                "+ The Following DLC",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                true
-            ),
             Game(
                 "        --- TOP 10 ---",
                 "0",
@@ -198,6 +197,23 @@ class AllGameList {
                 false
             ),
             Game(
+                "Dying Light",
+                "85",
+                R.drawable.dying_light,
+                84,
+                "62/69",
+                true,
+                true,
+                "+ The Following DLC",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                true
+            ),
+            Game(
                 "Oxygen Not Included",
                 "78",
                 R.drawable.oxygen,
@@ -214,23 +230,7 @@ class AllGameList {
                 "",
                 false
             ),
-            Game(
-                "Grounded",
-                "71:40",
-                R.drawable.grounded,
-                59,
-                "22/37",
-                false,
-                false,
-                "Whoa! 3/3",
-                "",
-                "",
-                "",
-                "First gameplay (Nov 2021) - 15:00",
-                "New gameplay (Oct - ___ 2022) - 53:00",
-                "",
-                false
-            ),
+
             Game(
                 "My Time at Portia",
                 "65",
@@ -740,6 +740,24 @@ class AllGameList {
                 true
             ),
             Game(
+                "Assassins Creed: Revelations",
+                "9",
+                R.drawable.ac_revelations,
+                0,
+                "0/0",
+                true,
+                false,
+                "",
+                "",
+                "",
+                "",
+                "August 2023",
+                "",
+                "",
+                true
+
+            ),
+            Game(
                 "Microsoft Flight Simulator",
                 "5",
                 R.drawable.flight,
@@ -756,24 +774,7 @@ class AllGameList {
                 "",
                 true
             ),
-            Game(
-                "Assassins Creed: Revelations",
-                "5",
-                R.drawable.ac_revelations,
-                0,
-                "0/0",
-                false,
-                false,
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                false
 
-            ),
 
             Game(
                 "Dave the Diver",
